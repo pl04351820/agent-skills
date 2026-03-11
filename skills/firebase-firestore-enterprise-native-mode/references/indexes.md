@@ -107,5 +107,5 @@ Define a unique index:
 
 Deploy indexes only:
 ```bash
-firebase deploy --only firestore:indexes
+npx firebase-tools@latest -y deploy --only firestore:indexes
 ```
